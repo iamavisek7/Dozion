@@ -1,0 +1,428 @@
+
+h1{
+  font-size: 35px;
+  position: relative;
+  right:413px;
+
+}
+
+/* body */
+body {
+  font-family: Montserrat;
+  font-size: 1rem;
+  color: white;
+  background-color:black;
+  margin: 0;
+}
+
+.first{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: #EEF2FF;
+  color: #121212;
+  position: sticky;
+  top: 0;
+
+
+}
+
+#top #time{
+  color: black;
+  font-style: Montserrat;
+}
+
+.news_text{
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.logo{
+  height: 70px;
+  width: 70px;
+  position: relative;
+
+  top: 20px;
+  right: 130px;
+}
+
+.abc1{
+  color: white;
+  font-family: 'Comforter', cursive;
+  font-size: 2em;
+}
+
+.abc2{
+  color: white;
+  font-family: 'Comforter', cursive;
+  font-size: 2em;
+}
+
+
+.news {
+  margin: 20px;
+  border:solid 0px;
+  border-color: white;
+  transition: transform .2s; /* Animation */
+  width: 350px;
+  height: 400px;
+  box-shadow: 0px 1px 2px grey;
+
+}
+
+.letters{
+  color: orange;
+}
+
+.news:hover {
+  box-shadow: 0px 2px 3px white;
+  /* transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ */
+}
+
+.first-box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.second-box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.third-box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.fourth-box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.fifth-box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.boxes{
+
+
+position: relative;
+  align-items: center;
+  margin: auto;
+  width:60%;
+  box-sizing: border-box;
+  height: 550px;
+}
+
+.first-box{
+
+  background-image: url(https://media.istockphoto.com/photos/close-up-shot-of-bitcoin-and-alt-coins-cryptocurrency-picture-id1319338212?k=20&m=1319338212&s=612x612&w=0&h=eY-Uf7mW4MlIUkjJeN3_xe5dvBhTeybuvtjuR7OcEG8=);
+  border:solid;
+  border-color: white;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: absolute;
+
+
+
+}
+
+.second-box{
+  background-image: url(https://th.bing.com/th/id/OIP.3qTDS1KBQ6uMKT-8i-BkggHaDl?pid=ImgDet&rs=1);
+  border:solid;
+  border-color: white;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+}
+
+.third-box{
+  border:solid;
+  border-color: white;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 400px;
+  background-image: url(https://media.istockphoto.com/photos/candlestick-graph-on-tablet-business-and-financial-concept-picture-id930640278?k=20&m=930640278&s=612x612&w=0&h=iRh4ukhvsbw6OZ2rDo1EBr3wSwsNiDu9iPdO3Xp2t3M=);
+  background-size: cover;
+  position: absolute;
+}
+
+.fourth-box{
+
+  background-image: url(https://media.istockphoto.com/photos/neon-printed-circuit-board-futuristic-server-3d-rendering-picture-id1336563533?k=20&m=1336563533&s=612x612&w=0&h=PqYoZBNdwXTJNQmtHTTZMuGUFd_ySOnU1a1fTPxqYYs=);
+  border:solid;
+  border-color: white;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size:contain;
+}
+
+.fifth-box{
+
+  background-image: url();
+  border:solid;
+  border-color: white;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 400px;
+  position: absolute;
+}
+
+.btn{
+  background: none;
+  border:none;
+  color:black;
+  font-size: 3rem;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 2;
+  top: 190px;
+}
+
+.btn:hover{
+  background-color: grey;
+}
+
+.next-button{
+  right:0;
+}
+
+.prev-button{
+  left: 0;
+}
+
+.coins{
+  display: grid;
+  margin-top: 60px;
+
+
+  justify-content: center;
+}
+
+.coins .searchh{
+  margin-top: 20px;
+  width: 350px;
+  height: 30px;
+
+
+}
+
+.coins label{
+  color: white;
+  font-size: 20px;
+  font-family: 'Comforter', cursive;
+  margin-left: 70px;
+
+
+}
+
+.coin-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.grid{
+  border:solid 0;
+  min-width: 350px;
+  height: 150px;
+  margin:20px;
+  color: white;
+  font-size: 0.8rem;
+  box-shadow: 0px 2px 2px white;
+}
+
+.grid:hover{
+  background-color: grey;
+  
+  transform: scale(1.05);
+}
+.coin-label{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.coins input[type=text] {
+    padding: 10px;
+  font-size: 17px;
+  border: 0.5px grey;
+  border-radius: 5px;
+  width:250px;
+
+}
+
+.coins button {
+    padding: 10px;
+  background: #557C55;
+  /* color: white; */
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*     lower body in index file*/
+header{
+  font-family: Montserrat sans-serif;
+  color: orange;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.paraabout{
+font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+ul{
+font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+
+.buttonfooter{
+      display: grid;
+      justify-content:space-around;
+       align-items: center;
+      background-color: #EEF2FF;
+      color: #121212;
+      padding-top: 20px;
+      padding: 10px;
+
+}
+.bottom-icons{
+  display: flex;
+  padding:10px;
+}
+
+
+
+
+.predict p{
+font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+
+.graph1{
+  color: white;
+  border-radius: 7px;
+
+
+}
+
+.graph-img{
+  /* border: 10px;
+  border-color: white; */
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif
+  border-radius:7px;
+  margin:auto;
+
+
+}
+
+.fa-brands{
+
+  padding: 8px;
+}
+
+.fa-solid{
+  padding: 8px;
+}
+
+/* NEWS */
+.news-grid1{
+  border-radius: 6px;
+  border: solid 0px;
+  min-width: 350px;
+  height: 150px;
+  margin:20px;
+  color: white;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px;
+  width: 40%;
+
+
+}
+
+#news-card{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+}
+
+.news-label1{
+  display: flex;
+}
+
+.news-card-box header{
+  margin-top: 30px;
+}
+
+.news-grid1:hover {
+   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  /* background-color: grey; */
+  box-shadow: 0px 2px 3px white;
+}
+
+/* GUIDE */
+
+.guide{
+  font-style: Montserrat;
+}
+
+.guide-parent1{
+  display: flex;
+  padding: 7px;
+}
+
+.guide-parent2{
+  display: flex;
+  padding:7px;
+}
+
+.guide-child1{
+  width: 70%;
+  padding: 7px;
+}
+
+.guide-child2{
+  width: 30%;
+  padding: 7px;
+  box-shadow: 0px 1px 2px grey;
+}
+
+#fgi-meter{
+  padding: 20px;
+}
+
+#meter{
+  padding: 20px;
+}
+
+.guide-child2:hover{
+  box-shadow: 0px 2px 3px;
+
+}
